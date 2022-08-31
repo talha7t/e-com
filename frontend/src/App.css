@@ -1,0 +1,16 @@
+.account-tab {
+  color: #666;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.account-tab.active {
+  font-weight: 600;
+  color: #333;
+}
+
+.section-wrapper {
+  margin: 5vh 5vh 0;
+}

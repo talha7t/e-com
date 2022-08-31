@@ -1,0 +1,33 @@
+.main_heading {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.sub_heading {
+  color: #555;
+  font-size: 0.8rem;
+}
+
+.cta_container {
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  width: 45vw !important;
+  padding: 1rem;
+  margin-top: 4rem;
+}
+
+.arrow_forward {
+  transition: all 0.3s ease-out !important;
+}
+
+.cta_container:hover .arrow_forward {
+  transform: translateX(8px);
+}
+
+@media screen and (max-width: 600px) {
+  .cta_container {
+    width: 90vw !important;
+  }
+}

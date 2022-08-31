@@ -1,0 +1,79 @@
+.form_wrapper {
+  margin: 20vh 0 !important;
+}
+.form_wrapper form {
+  width: 100%;
+}
+
+.heading {
+  font-weight: 500 !important;
+}
+
+.register_input_field,
+.login_input_field {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #999999;
+  color: #999999;
+  padding-bottom: 3px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  width: 18rem;
+}
+.register_input_field {
+  width: 100%;
+}
+
+.link_text {
+  color: #999;
+  font-size: 11px;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  cursor: pointer;
+}
+
+.link_text a {
+  text-decoration: none;
+  color: #999;
+}
+
+.submit_btn {
+  background-color: #000 !important;
+  color: #fff !important;
+  width: 18rem;
+  border-radius: 1px !important;
+  cursor: pointer !important;
+  outline: none !important;
+  /* border: none !important; */
+}
+
+.submit_btn:hover {
+  background-color: #333 !important;
+}
+
+.submit_btn:disabled {
+  background-color: #999 !important;
+}
+
+.register_content {
+  font-size: 0.8rem;
+  font-weight: 300 !important;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .login_input_field,
+  .submit_btn {
+    width: 100%;
+  }
+  div.MuiGrid-root.MuiGrid-item.grid_item {
+    padding-left: 0 !important;
+  }
+
+  div.MuiGrid-root.MuiGrid-item {
+    padding-left: 0 !important;
+  }
+}
